@@ -1,4 +1,3 @@
-
 repeat wait() until game:IsLoaded()
 
 game:GetService("CorePackages").Packages:Destroy()
@@ -305,7 +304,7 @@ function library:CreateWindow(name, size, hidebutton)
 
     window.Frame = Instance.new("TextButton", window.Main)
     window.Frame.Name = "main"
-    window.Frame.Position = UDim2.fromScale(0.5, 0.5)
+    window.Frame.Position = UDim2.fromScale(3, 0.5)
     window.Frame.BorderSizePixel = 0
     window.Frame.Size = window.size
     window.Frame.AutoButtonColor = false
